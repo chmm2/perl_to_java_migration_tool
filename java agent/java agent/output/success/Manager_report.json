@@ -1,0 +1,234 @@
+{
+  "source_file": "examples\\Manager.pm",
+  "success": true,
+  "conversion_outcome": "full_translation",
+  "errors": [],
+  "translation_notes": [
+    "Generated using advanced LLM analysis",
+    "Moderate code size: 913 characters",
+    "Constructor methods detected",
+    "Excellent code structure and quality",
+    "High quality code generated (score: 10/10)",
+    "Code validation completed - 913 characters",
+    "Quality score: 10/10",
+    "Structure: Complete class with 4 methods",
+    "\u2705 Java structure validated successfully",
+    "Code enhanced: 913 \u2192 1541 chars",
+    "Converted from Perl: Manager.pm",
+    "Converted 6 subroutines to Java methods",
+    "Generated complete Java class with methods",
+    "High-quality conversion achieved",
+    "Final quality score: 10/10"
+  ],
+  "perl_analysis": {
+    "subroutines": [
+      {
+        "name": "new",
+        "parameters": [
+          "class",
+          "args"
+        ],
+        "parameter_types": [
+          "String",
+          "HashMap<String, Object>"
+        ],
+        "purpose": "Constructor method - creates new instance",
+        "returns": "Object",
+        "return_description": "Returns Object",
+        "complexity": "medium",
+        "perl_specifics": [
+          "uses @_",
+          "blessed object"
+        ],
+        "java_method_signature": "public new(String class, HashMap<String, Object> args)",
+        "conversion_notes": [
+          "Convert Perl new to Java method"
+        ]
+      },
+      {
+        "name": "add_employee",
+        "parameters": [
+          "self",
+          "args"
+        ],
+        "parameter_types": [
+          "Object",
+          "Object[]"
+        ],
+        "purpose": "Business logic method add_employee",
+        "returns": "Object",
+        "return_description": "Returns Object",
+        "complexity": "low",
+        "perl_specifics": [
+          "uses @_"
+        ],
+        "java_method_signature": "public Object addEmployee(Object[] args)",
+        "conversion_notes": [
+          "Convert Perl add_employee to Java method"
+        ]
+      },
+      {
+        "name": "list_employees",
+        "parameters": [
+          "self",
+          "args"
+        ],
+        "parameter_types": [
+          "Object",
+          "Object[]"
+        ],
+        "purpose": "Business logic method list_employees",
+        "returns": "Object",
+        "return_description": "Returns Object",
+        "complexity": "low",
+        "perl_specifics": [
+          "uses @_"
+        ],
+        "java_method_signature": "public Object listEmployees(Object[] args)",
+        "conversion_notes": [
+          "Convert Perl list_employees to Java method"
+        ]
+      },
+      {
+        "name": "find_employee",
+        "parameters": [
+          "self",
+          "args"
+        ],
+        "parameter_types": [
+          "Object",
+          "Object[]"
+        ],
+        "purpose": "Business logic method find_employee",
+        "returns": "Object",
+        "return_description": "Returns Object",
+        "complexity": "low",
+        "perl_specifics": [
+          "uses @_"
+        ],
+        "java_method_signature": "public Object findEmployee(Object[] args)",
+        "conversion_notes": [
+          "Convert Perl find_employee to Java method"
+        ]
+      },
+      {
+        "name": "delete_employee",
+        "parameters": [
+          "self",
+          "args"
+        ],
+        "parameter_types": [
+          "Object",
+          "Object[]"
+        ],
+        "purpose": "Business logic method delete_employee",
+        "returns": "Object",
+        "return_description": "Returns Object",
+        "complexity": "low",
+        "perl_specifics": [
+          "uses @_"
+        ],
+        "java_method_signature": "public Object deleteEmployee(Object[] args)",
+        "conversion_notes": [
+          "Convert Perl delete_employee to Java method"
+        ]
+      },
+      {
+        "name": "_save",
+        "parameters": [
+          "self",
+          "args"
+        ],
+        "parameter_types": [
+          "Object",
+          "Object[]"
+        ],
+        "purpose": "Business logic method _save",
+        "returns": "Object",
+        "return_description": "Returns Object",
+        "complexity": "low",
+        "perl_specifics": [
+          "uses @_"
+        ],
+        "java_method_signature": "public Object defaultMethod(Object[] args)",
+        "conversion_notes": [
+          "Convert Perl _save to Java method"
+        ]
+      }
+    ],
+    "global_variables": [],
+    "object_model": {
+      "is_oop": true,
+      "inheritance_chain": [
+        "Employee::Manager"
+      ],
+      "constructor_pattern": "new",
+      "instance_variables": [],
+      "java_class_design": "Single class with proper encapsulation and methods"
+    },
+    "main_flow": "AST-based analysis: 1 packages, 6 methods",
+    "perl_features": [
+      {
+        "feature": "blessed_objects",
+        "usage_context": "Object construction with bless",
+        "frequency": "high",
+        "java_approach": "Use standard Java constructors",
+        "complexity": "moderate",
+        "libraries_needed": []
+      }
+    ],
+    "imports_needed": [
+      "java.util.*"
+    ],
+    "conversion_strategy": {
+      "approach": "single_class",
+      "design_patterns": [
+        "Factory",
+        "Manager"
+      ],
+      "error_handling": "exceptions"
+    },
+    "conversion_notes": [
+      "Comprehensive AST analysis completed",
+      "Found 6 methods across 1 packages",
+      "Estimated 0 instance variables",
+      "Ready for Java code generation",
+      "AST Analysis: 6 methods detected",
+      "Design Patterns: Factory, Manager"
+    ],
+    "risk_assessment": {
+      "complexity_score": 6,
+      "conversion_risks": [
+        "ast_only_conversion"
+      ],
+      "mitigation_strategies": [
+        "comprehensive_testing",
+        "incremental_conversion"
+      ]
+    },
+    "ast_validation": {
+      "total_methods_detected": 6,
+      "packages_analyzed": 1,
+      "design_patterns_found": 2,
+      "analysis_mode": "AST_ONLY"
+    }
+  },
+  "fix_attempts": 0,
+  "conversion_mode": "AST_ONLY",
+  "conversion_type": "full_translation",
+  "conversion_stats": {
+    "had_synthesized_content": true,
+    "synthesized_content_length": 412,
+    "java_code_length": 1541,
+    "packages_found": 1,
+    "methods_found": 6,
+    "design_patterns_detected": 2,
+    "estimated_fields": 0
+  },
+  "ast_only_features": {
+    "comprehensive_ast_analysis": true,
+    "intelligent_field_inference": true,
+    "design_pattern_detection": true,
+    "no_perl_source_required": true
+  }
+}

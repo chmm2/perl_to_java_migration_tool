@@ -1,0 +1,121 @@
+{
+  "conversion_metadata": {
+    "timestamp": "2025-07-21 15:18:58",
+    "conversion_mode": "AST_ONLY",
+    "enhancement_version": "AST-Only v1.0",
+    "total_files": 3,
+    "successful_conversions": 3,
+    "failed_conversions": 0,
+    "success_rate_percent": 100.0,
+    "total_processing_time_seconds": 18.56,
+    "average_time_per_file_seconds": 6.19,
+    "groq_model_used": "llama3-70b-8192",
+    "temperature_setting": 0.1,
+    "no_perl_source_access": true
+  },
+  "ast_only_features": {
+    "comprehensive_ast_extraction": true,
+    "intelligent_field_inference": true,
+    "design_pattern_detection": true,
+    "synthetic_content_generation": true,
+    "no_perl_source_required": true
+  },
+  "code_generation_analytics": {
+    "total_java_characters": 3830,
+    "total_java_lines": 141,
+    "average_chars_per_file": 1276.67,
+    "average_lines_per_file": 47.0,
+    "largest_generated_file_chars": 1866,
+    "analysis_quality_distribution": {
+      "high": 2,
+      "basic": 1,
+      "failed": 0
+    }
+  },
+  "file_results": [
+    {
+      "file_name": "Employee.pm",
+      "file_path": "examples\\Employee.pm",
+      "success": true,
+      "java_code_length": 423,
+      "java_lines_count": 19,
+      "analysis_quality": "high",
+      "fix_attempts": 0,
+      "conversion_mode": "AST_ONLY",
+      "translation_notes": [
+        "Generated using advanced LLM analysis",
+        "Moderate code size: 423 characters",
+        "Constructor methods detected",
+        "Accessor methods found: 1 getters, 0 setters",
+        "Excellent code structure and quality",
+        "High quality code generated (score: 10/10)",
+        "Code validation completed - 423 characters",
+        "Quality score: 10/10",
+        "Structure: Basic class with 2 methods",
+        "\u2705 Java structure validated successfully",
+        "Converted from Perl: Employee.pm",
+        "Converted 3 subroutines to Java methods",
+        "Generated complete Java class with methods",
+        "High-quality conversion achieved",
+        "Final quality score: 10/10"
+      ],
+      "errors": null
+    },
+    {
+      "file_name": "Manager.pm",
+      "file_path": "examples\\Manager.pm",
+      "success": true,
+      "java_code_length": 1541,
+      "java_lines_count": 61,
+      "analysis_quality": "high",
+      "fix_attempts": 0,
+      "conversion_mode": "AST_ONLY",
+      "translation_notes": [
+        "Generated using advanced LLM analysis",
+        "Moderate code size: 913 characters",
+        "Constructor methods detected",
+        "Excellent code structure and quality",
+        "High quality code generated (score: 10/10)",
+        "Code validation completed - 913 characters",
+        "Quality score: 10/10",
+        "Structure: Complete class with 4 methods",
+        "\u2705 Java structure validated successfully",
+        "Code enhanced: 913 \u2192 1541 chars",
+        "Converted from Perl: Manager.pm",
+        "Converted 6 subroutines to Java methods",
+        "Generated complete Java class with methods",
+        "High-quality conversion achieved",
+        "Final quality score: 10/10"
+      ],
+      "errors": null
+    },
+    {
+      "file_name": "main.pl",
+      "file_path": "examples\\main.pl",
+      "success": true,
+      "java_code_length": 1866,
+      "java_lines_count": 61,
+      "analysis_quality": "basic",
+      "fix_attempts": 0,
+      "conversion_mode": "AST_ONLY",
+      "translation_notes": [
+        "Generated comprehensive scaffold from AST analysis",
+        "Moderate code size: 520 characters",
+        "Constructor methods detected",
+        "Well-documented code (63.6% comments)",
+        "Excellent code structure and quality",
+        "High quality code generated (score: 10/10)",
+        "Code validation completed - 520 characters",
+        "Quality score: 10/10",
+        "Structure: Basic class with 1 methods",
+        "\u2705 Java structure validated successfully",
+        "Code enhanced: 520 \u2192 1866 chars",
+        "Converted from Perl: main.pl",
+        "Generated complete Java class with methods",
+        "High-quality conversion achieved",
+        "Final quality score: 10/10"
+      ],
+      "errors": null
+    }
+  ]
+}
